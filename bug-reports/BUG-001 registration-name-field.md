@@ -5,7 +5,7 @@
 **Priority:** Medium  
 **Severity:** Major  
 **Environment:** Windows 11 (23H2), Opera One 120.0.5543.93  
-**Attachments:** [Скриншот 1](./screenshots/bug1.png), [Скриншот 2](./screenshots/bug1.1.png)
+**Attachments:** [Скриншот 1](screenshots/bug1.png), [Скриншот 2](screenshots/bug1.1.png)
 
 ---
 
