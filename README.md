@@ -1,4 +1,4 @@
 ### Jira
 
 Часть багов задокументирована в Jira.  
-[Скриншот доски](jira/jira-overview.png)
+[Скриншот доски](screenshots/jira-overview.png)
