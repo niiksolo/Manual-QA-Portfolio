@@ -1,10 +1,10 @@
 # Bug Report: Регистрация проходит при некорректном номере телефона
 
-**ID:** BUG-004
-**Project:** Registration form
-**Priority:** High
-**Severity:** Major
-**Environment:** Windows 11 (23H2), Opera One 120.0.5543.93
+**ID:** BUG-004  
+**Project:** Registration form  
+**Priority:** High  
+**Severity:** Major  
+**Environment:** Windows 11 (23H2), Opera One 120.0.5543.93  
 
 ---
 
@@ -14,19 +14,19 @@
 ---
 
 ### Preconditions
-Открыть сайт MD Fashion. https://md-fashion.ua
+Открыть сайт: [MD Fashion](https://md-fashion.ua)
 
 ---
 
 ### Steps to Reproduce
-1. В хедере нажать **«Зареєструватися»**.
-2. В поле **«Телефон»** ввести короткий номер (например, `11111`).
+1. В хедере нажать **«Зареєструватися»**.  
+2. В поле **«Телефон»** ввести короткий номер (например, `11111`).  
 3. Нажать **«Підтвердити»**.
 
 ---
 
 ### Expected Result
-Показывается ошибка о некорректном номере; переход к вводу кода не выполняется.
+Отображается ошибка о некорректном номере; переход к вводу кода не выполняется.
 
 ---
 
@@ -36,4 +36,4 @@
 ---
 
 ### Attachments
-<img src="screenshots/bug4.png" width="250"/>
+<img src="screenshots/bug4.png" width="300"/>
