@@ -14,7 +14,7 @@
 ---
 
 ### Preconditions
-Открыть сайт MD Fashion.
+Открыть сайт MD Fashion. https://md-fashion.ua
 
 ---
 
