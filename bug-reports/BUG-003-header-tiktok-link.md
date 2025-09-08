@@ -14,7 +14,7 @@
 ---
 
 ### Steps to Reproduce
-1. Перейти на сайт (главная страница).  
+1. Перейти на сайт [gruzfishdnipro](https://gruzfishdnipro.com.ua/ru).  
 2. В хэдере нажать на иконку **TikTok**.  
 
 ---

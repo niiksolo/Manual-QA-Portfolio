@@ -14,7 +14,7 @@
 ---
 
 ### Steps to Reproduce
-1. Перейти на сайт: `https://www.demoblaze.com/`  
+1. Перейти на сайт: [demoblaze](https://www.demoblaze.com/)  
 2. Нажать кнопку **Contact**  
 3. Не заполняя форму, нажать **Send message**  
 
