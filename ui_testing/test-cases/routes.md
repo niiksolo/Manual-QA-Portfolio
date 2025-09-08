@@ -95,4 +95,4 @@
 
 **Статус:** Pass  
 
-<img src="screenshots/test18.png" width="200"/>  
+<img src="screenshots/test18.jpg" width="200"/>  

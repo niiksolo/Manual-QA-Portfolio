@@ -120,4 +120,4 @@
 
 **Статус:** Pass 
 
-<img src="screenshots/test13.png" width="200"/>
+<img src="screenshots/test13.jpg" width="200"/>

@@ -111,4 +111,4 @@
 
 **Статус:** Pass
 
-<img src="screenshots/test6.png" width="200"/>
+<img src="screenshots/test6.jpg" width="200"/>

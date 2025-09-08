@@ -14,7 +14,7 @@
 
 **Статус:** Pass  
 
-<img src="screenshots/test23.png" width="200"/>  
+<img src="screenshots/test23.jpg" width="200"/>  
 
 ---
 
@@ -64,7 +64,7 @@
 
 **Статус:** Pass  
 
-<img src="screenshots/test26.png" width="200"/>  
+<img src="screenshots/test26.jpg" width="200"/>  
 
 ---
 
@@ -81,6 +81,6 @@
 
 **Статус:** Pass  
 
-<img src="screenshots/test27.png" width="200"/>  
+<img src="screenshots/test27.jpg" width="200"/>  
 
 ---
