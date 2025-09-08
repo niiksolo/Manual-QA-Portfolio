@@ -83,7 +83,7 @@
 
 ### TC-BOOK-005: Проверка закрытия формы  
 **Предусловия:**  
-1. Открыть страницу [КС-ТРАНС](https://ks-trans.org/ukraina-bolgariya.html)  
+1. Открыть страницу [ukraina-bolgariya](https://ks-trans.org/ukraina-bolgariya.html)  
 2. Нажать «Забронювати»  
 
 **Шаги:**  
