@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "243eca47-6862-4487-a3a2-b8b4c06bd401",
+		"name": "Carts",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46940334"
+	},
+	"item": [
+		{
+			"name": "Carts",
+			"item": [
+				{
+					"name": "Get all carts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status 200\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();\r",
+									"pm.expect(json.length).to.be.above(0);\r",
+									"pm.expect(json[0]).to.have.property(\"userId\");\r",
+									"pm.expect(json[0]).to.have.property(\"products\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a single cart",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Cart exists\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();\r",
+									"pm.expect(json).to.have.property(\"id\");\r",
+									"pm.expect(json).to.have.property(\"userId\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts/3",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add a new cart",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Cart created\", () => pm.response.to.have.status(201));\r",
+									"const json = pm.response.json();\r",
+									"pm.environment.set(\"cart_id\", json.id);\r",
+									"pm.expect(json.userId).to.eql(111);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 111,\r\n  \"userId\": 111,\r\n  \"products\": [\r\n    {\r\n      \"id\": 111,\r\n      \"title\": \"QA\",\r\n      \"price\": 0.5,\r\n      \"description\": \"QA\",\r\n      \"category\": \"QA\",\r\n      \"image\": \"http://QA.com\"\r\n    }\r\n  ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/carts",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a cart",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Cart updated\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"id\": 123,\r\n\"userId\": 321,\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/carts/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a cart",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Cart updated\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts/6",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "JSON Schema carts",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const cartSchema = {\r",
+									"  \"type\": \"object\",\r",
+									"  \"required\": [\"id\", \"userId\", \"date\", \"products\"],\r",
+									"  \"properties\": {\r",
+									"    \"id\": { \"type\": \"integer\" },\r",
+									"    \"userId\": { \"type\": \"integer\" },\r",
+									"    \"date\": { \"type\": \"string\" },\r",
+									"    \"products\": {\r",
+									"      \"type\": \"array\",\r",
+									"      \"items\": {\r",
+									"        \"type\": \"object\",\r",
+									"        \"required\": [\"productId\", \"quantity\"],\r",
+									"        \"properties\": {\r",
+									"          \"productId\": { \"type\": \"integer\" },\r",
+									"          \"quantity\": { \"type\": \"integer\" }\r",
+									"        }\r",
+									"      }\r",
+									"    }\r",
+									"  }\r",
+									"};\r",
+									"\r",
+									"pm.test('Cart matches JSON Schema', () => {\r",
+									"  pm.response.to.have.jsonSchema(cartSchema);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/carts/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"carts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

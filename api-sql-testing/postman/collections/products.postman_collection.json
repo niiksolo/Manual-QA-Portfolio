@@ -1,0 +1,269 @@
+{
+	"info": {
+		"_postman_id": "b2807ce4-bb4d-4871-9ada-8a3be8f2922f",
+		"name": "products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46940334"
+	},
+	"item": [
+		{
+			"name": "Products",
+			"item": [
+				{
+					"name": "Get all products",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status is 200\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();\r",
+									"pm.expect(json.length).to.be.above(0);\r",
+									"pm.expect(json[0]).to.have.property(\"title\");\r",
+									"pm.expect(json[0]).to.have.property(\"price\");"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/products",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add a new product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Product created\", () => pm.response.to.have.status(201));\r",
+									"const json = pm.response.json();\r",
+									"pm.environment.set(\"product_id\", json.id);\r",
+									"pm.expect(json.title).to.eql(\"QA Test Product\");\r",
+									"pm.expect(json.price).to.eql(0.99);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{       \r\n        \"title\": \"QA Test Product\",\r\n        \"price\": 0.99,\r\n        \"description\": \"Vkusna\",\r\n        \"category\": \"VODA\",\r\n        \"image\": \"https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_t.png\"       \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/products",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a single product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status is 200\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();\r",
+									"pm.expect(json).to.have.property(\"id\");\r",
+									"pm.expect(json).to.have.property(\"title\");\r",
+									"pm.expect(json.price).to.be.above(0);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/products/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update a product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Product updated\", () => pm.response.to.have.status(200));\r",
+									"const json = pm.response.json();\r",
+									"pm.expect(json.title).to.eql(\"QAQAQAQAQAQAQAQA\");\r",
+									"pm.expect(json.price).to.eql(10000000);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"QAQAQAQAQAQAQAQA\",\r\n    \"price\": 10000000,\r\n    \"description\": \"practice_QA\",\r\n    \"category\": \"QA\",\r\n    \"image\": \"https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_t.png\"\r\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/products/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete a product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Product deleted\", () => pm.response.to.have.status(200));\r",
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/products/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "JSON Schema product",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"const productSchema = {\r",
+									"  \"type\": \"object\",\r",
+									"  \"required\": [\"id\", \"title\", \"price\", \"description\", \"category\", \"image\"],\r",
+									"  \"properties\": {\r",
+									"    \"id\": { \"type\": \"integer\" },\r",
+									"    \"title\": { \"type\": \"string\" },\r",
+									"    \"price\": { \"type\": \"number\" },\r",
+									"    \"description\": { \"type\": \"string\" },\r",
+									"    \"category\": { \"type\": \"string\" },\r",
+									"    \"image\": { \"type\": \"string\", \"format\": \"uri\" }\r",
+									"  }\r",
+									"};\r",
+									"\r",
+									"pm.test('Product matches JSON Schema', () => {\r",
+									"  pm.response.to.have.jsonSchema(productSchema);\r",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/products/5",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"products",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
