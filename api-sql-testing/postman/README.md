@@ -19,3 +19,5 @@
 - [Products Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Products_Report.html)
 - [Users Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Users_Report.html)
 - [Carts Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Carts_Report.html)
+
+https://niiksolo.github.io/Manual-QA-Portfolio/reports/Auth_Report.html
