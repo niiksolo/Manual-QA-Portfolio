@@ -15,9 +15,8 @@
 ---
 
 📊 Отчёты
-- [Auth Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Auth_Report.html)
-- [Products Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Products_Report.html)
-- [Users Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Users_Report.html)
-- [Carts Report](https://niiksolo.github.io/Manual-QA-Portfolio/reports/Carts_Report.html)
-
-https://niiksolo.github.io/Manual-QA-Portfolio/reports/Auth_Report.html
+## 📊 API Отчёты
+- [Auth Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Auth_Report.html)
+- [Products Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Products_Report.html)
+- [Users Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Users_Report.html)
+- [Carts Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Carts_Report.html)
