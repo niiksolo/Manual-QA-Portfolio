@@ -1,22 +1,39 @@
 # 🧪 API Testing — FakeStoreAPI
 
 Учебный проект для демонстрации навыков **API тестирования**.  
-Инструменты: **Postman**, **Newman**.
+Инструменты: **Postman** (ручное тестирование), **Newman** (автоматический прогон и HTML-отчёты).  
 
 ---
 
 ## 📌 Что сделано
 - Коллекции для **Products**, **Users**, **Carts**, **Auth**  
-- Переменные окружений   
-- Авторизация  
+- Переменные окружений для каждой коллекции  
+- Реализованы CRUD-сценарии  
+- Авторизация (`/auth/login`) и сохранение токена  
 - JSON Schema validation  
-- Генерация HTML-отчётов
+- Генерация HTML-отчётов через Newman  
 
 ---
 
-📊 Отчёты
 ## 📊 API Отчёты
-- [Auth Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Auth_Report.html)
-- [Products Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Products_Report.html)
-- [Users Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Users_Report.html)
-- [Carts Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Carts_Report.html)
+
+Результаты прогонов сохранены в папке [`reports/`](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/):
+
+- [Products Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Products_Report.html)  
+- [Users Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Users_Report.html)  
+- [Carts Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Carts_Report.html)  
+- [Auth Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Auth_Report.html)  
+
+> ⚠️ HTML-отчёты на GitHub открываются как текст. Чтобы увидеть красиво — можно открыть их через браузер или приложить скриншоты.
+
+---
+
+## 🚀 Как запустить тесты
+
+Открой терминал или PowerShell в корне проекта и запусти команды Newman:
+
+```bash
+newman run collections/Products.postman_collection.json -e environments/Products_Env.postman_environment.json -r cli,html --reporter-html-export reports/Products_Report.html
+newman run collections/Users.postman_collection.json -e environments/Users_Env.postman_environment.json -r cli,html --reporter-html-export reports/Users_Report.html
+newman run collections/Carts.postman_collection.json -e environments/Carts_Env.postman_environment.json -r cli,html --reporter-html-export reports/Carts_Report.html
+newman run collections/Auth.postman_collection.json -e environments/Auth_Env.postman_environment.json -r cli,html --reporter-html-export reports/Auth_Report.html
