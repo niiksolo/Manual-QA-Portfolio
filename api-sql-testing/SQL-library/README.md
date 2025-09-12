@@ -11,8 +11,6 @@
 
 **Возможности:** SELECT, WHERE, ORDER BY, LIMIT, JOIN, GROUP BY, HAVING, подзапросы, EXISTS, UNION, INSERT, UPDATE, DELETE.
 
-Цель: закрепление основных SQL-концепций и практика работы с реальными данными.
-
 **Скриншоты работы:**  
 <img src="screenshots/1.png" width="250"/>
 <img src="screenshots/2.png" width="250"/>
