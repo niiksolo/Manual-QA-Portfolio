@@ -1,7 +1,7 @@
 # MySQL-API Project
 
 Мини-проект демонстрирует workflow QA: API → Python → MySQL → Отчёты.
-
+Проект показывает, как получать данные через FakeStoreAPI, записывать их в базу данных и формировать отчёты в **HTML/CSV**.
 ## Скрипты
 - `products.py`, `users.py`, `carts.py` — создают/обновляют данные через API и пишут в БД
 - `generate_report.py` — формирует HTML и CSV отчёты
