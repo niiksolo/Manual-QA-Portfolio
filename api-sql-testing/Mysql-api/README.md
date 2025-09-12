@@ -1,4 +1,4 @@
-# Redmi QA Project
+# MySQL-API Project
 
 Мини-проект демонстрирует workflow QA: API → Python → MySQL → Отчёты.
 
