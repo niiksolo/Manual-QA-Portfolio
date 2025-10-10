@@ -1,20 +1,20 @@
 # Bug Reports
 
-Изначально все баги были задокументированы в **Jira**, после чего перенесены сюда для удобного просмотра.  
+All bugs were initially documented in **Jira**, and then moved here for easier viewing.  
 
-## Структура
-- Каждый баг-репорт хранится в отдельном `.md` файле.  
-- Скриншоты находятся в папке `screenshots/` и подключены через `<img>` в самих отчётах.  
-- Файл `jira-overview.md` содержит скриншот и подтверждает, что все баги действительно заведены и оформлены в **Jira**. При необходимости я могу показать их напрямую в Jira.  
+## Structure
+- Each bug report is stored in a separate `.md` file.  
+- Screenshots are located in the `screenshots/` folder and are included in the reports using `<img>` tags.  
+- The `jira-overview.md` file contains a screenshot confirming that all bugs were actually created and tracked in **Jira**. If needed, I can show them directly in Jira.  
 
-## Шаблон баг-репорта
-Каждый отчёт включает:  
-- **ID** — уникальный номер бага  
-- **Project** — к какому модулю относится  
-- **Priority & Severity** — приоритет и серьёзность  
-- **Environment** — ОС и браузер  
-- **Description** — описание проблемы  
-- **Steps to Reproduce** — шаги для воспроизведения  
-- **Expected Result** — ожидаемый результат  
-- **Actual Result** — фактический результат  
-- **Attachments** — скриншоты  
+## Bug Report Template
+Each report includes:  
+- **ID** — unique bug number  
+- **Project** — module the bug belongs to  
+- **Priority & Severity** — priority and severity  
+- **Environment** — OS and browser  
+- **Description** — problem description  
+- **Steps to Reproduce** — steps to reproduce the bug  
+- **Expected Result** — expected outcome  
+- **Actual Result** — actual outcome  
+- **Attachments** — screenshots  
