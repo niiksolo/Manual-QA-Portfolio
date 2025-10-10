@@ -1,4 +1,4 @@
-# Bug Report: Поля имени принимают цифры и спецсимволы
+# Bug Report: Name Fields Accept Numbers and Special Characters
 
 **ID:** BUG-001  
 **Project:** Registration form  
@@ -9,30 +9,30 @@
 ---
 
 ### Description
-В форме регистрации поля **First Name**, **Middle Name** и **Last Name** позволяют вводить цифры и специальные символы. Данные сохраняются, система не выдает предупреждений.
+In the registration form, the fields **First Name**, **Middle Name**, and **Last Name** allow entering numbers and special characters. The data is saved and the system does not show any warnings.
 
 ---
 
 ### Steps to Reproduce
-1. Перейти на сайт: [ exe.ua ](https://exe.ua)  
-2. Нажать кнопку **Sign up**  
-3. Ввести в поля имени цифры или символы (например: `123`, `@#$`)  
-4. Заполнить остальные поля корректно  
-5. Нажать **Sign up**  
+1. Go to the website: [exe.ua](https://exe.ua)  
+2. Click the **Sign up** button  
+3. Enter numbers or symbols in the name fields (for example: `123`, `@#$`)  
+4. Fill in the other fields correctly  
+5. Click **Sign up**  
 
 ---
 
 ### Expected Result
-Система должна отклонять недопустимый ввод и показать сообщение об ошибке:  
+The system should reject invalid input and display an error message:  
 *“Only letters allowed”*.  
-Регистрация не должна завершаться.
+Registration should not be completed.
 
 ---
 
 ### Actual Result
-Регистрация успешно проходит, в полях имени сохраняются цифры и символы.  
+Registration is completed successfully, and numbers or symbols are saved in the name fields.
 
 ---
 
 ### Attachments
-<img src="screenshots/bug1.png" width="250"/> <img src="screenshots/bug1.1.png" width="250"/>
+<img src="screenshots/bug1.png" width="250"/> <img src="screenshots/bug1.1.png" width="250"/>  

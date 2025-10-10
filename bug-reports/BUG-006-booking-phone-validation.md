@@ -1,4 +1,4 @@
-# Bug Report: Форма бронирования принимает некорректный номер телефона
+# Bug Report: Booking Form Accepts Incorrect Phone Number
 
 **ID:** BUG-006  
 **Project:** Booking form  
@@ -9,38 +9,38 @@
 ---
 
 ### Description
-В форме бронирования билета в поле «Телефон» можно вводить некорректные данные. Они проходят валидацию, и заявка успешно отправляется.
+In the ticket booking form, the **Phone** field allows entering invalid data. The input passes validation, and the booking request is submitted successfully.
 
 ---
 
 ### Preconditions
-Перейти на сайт: [КС-ТРАНС](https://kstrans.com.ua)  
+Go to the website: [KS-TRANS](https://kstrans.com.ua)  
 
 ---
 
 ### Steps to Reproduce
-1. В верхней части страницы нажать **«Маршрути»**.  
-2. В списке выбрать **«Німеччина»**.  
-3. На новой странице найти маршрут **«Україна – Німеччина»**.  
-4. Нажать кнопку **«Забронювати»**.  
-5. В форме бронирования заполнить поля:  
-   - Контактне лице → `1`  
-   - Телефон → `1111111111111111`  
-6. Нажать **«Відправити»**.  
+1. Click **“Routes”** at the top of the page  
+2. In the list, select **“Germany”**  
+3. On the new page, find the route **“Ukraine – Germany”**  
+4. Click **“Book”**  
+5. Fill in the booking form fields:  
+   - Contact Person → `1`  
+   - Phone → `1111111111111111`  
+6. Click **“Send”**  
 
 ---
 
 ### Expected Result
-Система должна показать ошибку о неверно введённом номере телефона.  
-Заявка не должна отправляться.  
+The system should show an error for the invalid phone number.  
+The booking should not be submitted.  
 
 ---
 
 ### Actual Result
-Появляется окно с сообщением об успешном оформлении бронирования, хотя номер телефона введён некорректно.  
+A window appears confirming successful booking, even though the phone number is invalid.  
 
 ---
 
 ### Attachments
-<img src="screenshots/bug6-1.png" width="300"/>
-<img src="screenshots/bug6-2.png" width="300"/>
+<img src="screenshots/bug6-1.png" width="300"/>  
+<img src="screenshots/bug6-2.png" width="300"/>  

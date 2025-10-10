@@ -1,4 +1,4 @@
-# Bug Report: Иконка TikTok ведет на несуществующий аккаунт
+# Bug Report: TikTok Icon Leads to Non-Existent Account
 
 **ID:** BUG-003  
 **Project:** Header navigation  
@@ -9,25 +9,25 @@
 ---
 
 ### Description
-В хэдере сайта при нажатии на иконку **TikTok** открывается страница с ошибкой: *“Аккаунт не найден”*.  
+In the website header, clicking the **TikTok** icon opens a page with an error: *“Account not found”*.  
 
 ---
 
 ### Steps to Reproduce
-1. Перейти на сайт [gruzfishdnipro](https://gruzfishdnipro.com.ua/ru).  
-2. В хэдере нажать на иконку **TikTok**.  
+1. Go to the website: [gruzfishdnipro](https://gruzfishdnipro.com.ua/ru)  
+2. Click the **TikTok** icon in the header  
 
 ---
 
 ### Expected Result
-Открывается страница с официальным TikTok-аккаунтом компании.  
+The official TikTok account of the company should open.  
 
 ---
 
 ### Actual Result
-В новом окне появляется ошибка: *“Аккаунт не найден”*.  
+A new window opens with an error: *“Account not found”*.  
 
 ---
 
 ### Attachments
-<img src="screenshots/bug3.png" width="300"/>
+<img src="screenshots/bug3.png" width="300"/>   

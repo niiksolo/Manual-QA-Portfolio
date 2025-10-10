@@ -1,4 +1,4 @@
-# Bug Report: Дублирование категории "Про нас" в футере
+# Bug Report: Duplicate "About Us" Category in Footer
 
 **ID:** BUG-009  
 **Project:** KS-TRANS website  
@@ -9,31 +9,31 @@
 ---
 
 ### Description
-В футере сайта дублируется категория **«Про нас»**.  
+In the website footer, the **“About Us”** category is duplicated.  
 
 ---
 
 ### Preconditions
-Перейти на сайт: [КС-ТРАНС](https://ks-trans.org)  
+Go to the website: [KS-TRANS](https://ks-trans.org)  
 
 ---
 
 ### Steps to Reproduce
-1. Открыть сайт.  
-2. Прокрутить страницу вниз до футера.  
-3. Обратить внимание на список категорий.  
+1. Open the website  
+2. Scroll down to the footer  
+3. Check the list of categories  
 
 ---
 
 ### Expected Result
-Категория **«Про нас»** должна быть представлена один раз.  
+The **“About Us”** category should appear only once.  
 
 ---
 
 ### Actual Result
-Категория **«Про нас»** отображается дважды.  
+The **“About Us”** category appears twice.  
 
 ---
 
 ### Attachments
-<img src="screenshots/bug9.png" width="400"/>
+<img src="screenshots/bug9.png" width="400"/>  

@@ -1,4 +1,4 @@
-# Bug Report: Contact-форма принимает пустые сообщения
+# Bug Report: Contact Form Accepts Empty Messages
 
 **ID:** BUG-002  
 **Project:** Contact form  
@@ -9,22 +9,22 @@
 ---
 
 ### Description
-При отправке сообщения через форму **Contact** без заполнения полей сайт подтверждает успешную отправку. Это ложное поведение, так как данные фактически не введены.  
+When sending a message through the **Contact** form without filling in any fields, the site confirms successful submission. This is incorrect behavior because no actual data was entered.
 
 ---
 
 ### Steps to Reproduce
-1. Перейти на сайт: [demoblaze](https://www.demoblaze.com/)  
-2. Нажать кнопку **Contact**  
-3. Не заполняя форму, нажать **Send message**  
+1. Go to the website: [demoblaze](https://www.demoblaze.com/)  
+2. Click the **Contact** button  
+3. Without filling in the form, click **Send message**  
 
 ---
 
 ### Expected Result
-Система должна вывести сообщение об ошибке или предупреждение:  
-*“Пожалуйста, заполните обязательные поля”*.  
+The system should show an error or warning message:  
+*“Please fill out the required fields”*.  
 
 ---
 
 ### Actual Result
-Появляется поп-ап: *“Thanks for the message!!”*, как будто сообщение отправлено успешно.  
+A pop-up appears: *“Thanks for the message!!”*, as if the message was successfully sent.

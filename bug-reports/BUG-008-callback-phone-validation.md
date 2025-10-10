@@ -1,4 +1,4 @@
-# Bug Report: Форма обратного звонка принимает некорректные номера телефонов
+# Bug Report: Callback Form Accepts Invalid Phone Numbers
 
 **ID:** BUG-008  
 **Project:** Callback form  
@@ -9,33 +9,33 @@
 ---
 
 ### Description
-В форме обратного звонка поле **«Номер телефона»** принимает любые числовые значения длиной больше 10 цифр. После ввода такого номера заявка успешно отправляется без какой-либо валидации.  
+In the callback form, the **Phone Number** field accepts any numeric value longer than 10 digits. After entering such a number, the request is submitted successfully without any validation.  
 
 ---
 
 ### Preconditions
-Перейти на сайт: [КС-ТРАНС](https://kstrans.com.ua)  
+Go to the website: [KS-TRANS](https://kstrans.com.ua)  
 
 ---
 
 ### Steps to Reproduce
-1. В хедере нажать на триггер **«Зворотній зв’язок»**.  
-2. Ввести в поле:  
-   - Имя: `1`  
-   - Телефон: `11111111111111111111`  
-3. Нажать кнопку **«Відправити»**.  
+1. Click the **“Callback”** trigger in the header  
+2. Enter in the fields:  
+   - Name: `1`  
+   - Phone: `11111111111111111111`  
+3. Click **“Send”**  
 
 ---
 
 ### Expected Result
-Должна появиться ошибка о некорректном номере телефона, либо заявка не должна быть отправлена.  
+An error should appear for the invalid phone number, or the request should not be submitted.  
 
 ---
 
 ### Actual Result
-Открывается страница с сообщением об успешной отправке обратного звонка.  
+A page appears confirming the callback request was successfully sent.  
 
 ---
 
 ### Attachments
-<img src="screenshots/bug8_1.png" width="300"/> <img src="screenshots/bug8_2.png" width="300"/>
+<img src="screenshots/bug8_1.png" width="300"/> <img src="screenshots/bug8_2.png" width="300"/>  

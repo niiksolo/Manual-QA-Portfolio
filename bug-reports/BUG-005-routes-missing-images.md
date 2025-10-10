@@ -1,4 +1,4 @@
-# Bug Report: Отсутствуют изображения у маршрутов
+# Bug Report: Missing Images for Routes
 
 **ID:** BUG-005  
 **Project:** Routes section  
@@ -9,35 +9,35 @@
 ---
 
 ### Description
-В разделе **«Маршруты»** у нескольких направлений не загружены изображения — вместо фото отображается заглушка *noimage.png*.  
+In the **“Routes”** section, several routes do not have images loaded — a placeholder *noimage.png* is displayed instead of a photo.  
 
 ---
 
 ### Preconditions
-Перейти на сайт: [КС-ТРАНС](https://kstrans.com.ua)  
+Go to the website: [KS-TRANS](https://kstrans.com.ua)  
 
 ---
 
 ### Steps to Reproduce
-1. На главной странице найти блок **«Наші популярні маршрути»**.  
-2. Нажать кнопку **«Дивитись усі напрямки»**.  
-3. В списке маршрутов обратить внимание на следующие направления:  
-   - Варшава – Кривий Ріг  
-   - Каунас – Кривий Ріг  
-   - Стамбул – Кривий Ріг  
-   - Люблін – Кривий Ріг  
-   - Тбілісі – Кривий Ріг  
-   - Батумі – Кривий Ріг  
+1. On the main page, find the block **“Our Popular Routes”**  
+2. Click the button **“View All Routes”**  
+3. In the route list, check the following routes:  
+   - Warsaw – Kryvyi Rih  
+   - Kaunas – Kryvyi Rih  
+   - Istanbul – Kryvyi Rih  
+   - Lublin – Kryvyi Rih  
+   - Tbilisi – Kryvyi Rih  
+   - Batumi – Kryvyi Rih  
 
 ---
 
 ### Expected Result
-У всех маршрутов должно быть уникальное изображение.  
+Each route should have a unique image.  
 
 ---
 
 ### Actual Result
-У перечисленных маршрутов вместо фото отображается заглушка *noimage.png*.  
+The listed routes display the placeholder *noimage.png* instead of a photo.  
 
 ---
 
@@ -47,4 +47,4 @@
 <img src="screenshots/bug5-3.png" width="220"/>  
 <img src="screenshots/bug5-4.png" width="220"/>  
 <img src="screenshots/bug5-5.png" width="220"/>  
-<img src="screenshots/bug5-6.png" width="220"/> 
+<img src="screenshots/bug5-6.png" width="220"/>  

@@ -1,4 +1,4 @@
-# Bug Report: Регистрация проходит при некорректном номере телефона
+# Bug Report: Registration Works with Incorrect Phone Number
 
 **ID:** BUG-004  
 **Project:** Registration form  
@@ -9,31 +9,31 @@
 ---
 
 ### Description
-При регистрации через вариант **«Отримати код за допомогою SMS»** система принимает номер телефона неполной длины и продолжает процесс без ошибки валидации.
+When registering via **“Receive code via SMS”**, the system accepts a phone number of insufficient length and continues the process without a validation error.
 
 ---
 
 ### Preconditions
-Открыть сайт: [MD Fashion](https://md-fashion.ua)
+Open the website: [MD Fashion](https://md-fashion.ua)
 
 ---
 
 ### Steps to Reproduce
-1. В хедере нажать **«Зареєструватися»**.  
-2. В поле **«Телефон»** ввести короткий номер (например, `11111`).  
-3. Нажать **«Підтвердити»**.
+1. Click **“Register”** in the header  
+2. Enter a short phone number in the **“Phone”** field (e.g., `11111`)  
+3. Click **“Confirm”**  
 
 ---
 
 ### Expected Result
-Отображается ошибка о некорректном номере; переход к вводу кода не выполняется.
+An error should appear for the invalid phone number; the system should not proceed to the code entry step.
 
 ---
 
 ### Actual Result
-Открывается окно с текстом: *«Введіть код з Viber або SMS отриманого на номер»*, хотя номер введён неверно.
+A window opens with the message: *“Enter the code from Viber or SMS sent to the number”*, even though the number is incorrect.
 
 ---
 
 ### Attachments
-<img src="screenshots/bug4.png" width="300"/>
+<img src="screenshots/bug4.png" width="300"/>   
