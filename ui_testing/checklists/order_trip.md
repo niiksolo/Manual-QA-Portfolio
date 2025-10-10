@@ -1,34 +1,34 @@
-# Чек-лист: Order a Trip (KS-Trans)
+# Checklist: Order a Trip (KS-Trans)
 
-## Переход из разделов маршрутов  
-☐ На главной странице при клике на кнопку «Детальніше» выбранного маршрута открывается соответствующая страница маршрута.  
-☐ URL соответствует названию направления.  
-☐ Название маршрута видно на открывшейся странице.
+## Navigation from Routes Sections
+☐ On the homepage, clicking the "Details" button of a selected route opens the corresponding route page.  
+☐ URL matches the route name.  
+☐ Route name is visible on the opened page.
 
-## Страница маршрута  
-☐ Отображается заголовок маршрута с указанием страны (Польща, Болгарія и т.д.) и направлений.  
-☐ Есть описание маршрута с перечислением городов отправления и прибытия.  
-☐ Присутствуют преимущества (Wi-Fi, кондиціонер, телевізор, обігрів салону и т.д.).  
-☐ Картинки/иконки плюсов загружаются корректно (не искажены).  
-☐ Текст описания читаем и корректен (нет ошибок).
+## Route Page
+☐ Route title displays the country (Poland, Bulgaria, etc.) and directions.  
+☐ Route description lists departure and arrival cities.  
+☐ Features are shown (Wi-Fi, Air Conditioning, TV, Cabin Heating, etc.).  
+☐ Images/icons of features load correctly (not distorted).  
+☐ Description text is readable and correct (no errors).
 
-## Кнопка оформления или дальнейшего перехода  
-☐ Присутствует кнопка «Забронювати».  
-☐ Кнопка кликабельна и открывает форму.  
-☐ При клике появляется форма бронирования.
+## Booking or Next-Step Button
+☐ "Book" button is present.  
+☐ Button is clickable and opens the booking form.  
+☐ Clicking the button displays the booking form.
 
-## Форма оформления  
-☐ Поля формы («Контактне лице», «Телефон», «Email») отображаются корректно.  
-☐ Все обязательные поля отмечены и понятны пользователю.  
-☐ В поля можно ввести данные без ошибок (текст, цифры, e-mail).  
-☐ При отправке пустой формы отображается сообщение об ошибке.  
-☐ Если заполнить телефон, но оставить имя пустым → появляется сообщение об ошибке и наоборот.  
-☐ В поле «Телефон» нельзя ввести буквы или некорректный формат (например, 123 или abcd).  
-☐ В поле «Email» проверяется корректность формата (обязательно @ и домен).  
-☐ Кнопка «Відправити» активна только при корректно заполненных полях.   
-☐ После отправки пользователь попадает на страницу «Дякую за замовлення».  
+## Booking Form
+☐ Form fields ("Contact Person", "Phone", "Email") are displayed correctly.  
+☐ All required fields are clearly marked for the user.  
+☐ Fields accept input without errors (text, numbers, email).  
+☐ Submitting an empty form shows an error message.  
+☐ Filling in the phone but leaving the name empty → shows an error, and vice versa.  
+☐ Phone field does not accept letters or incorrect format (e.g., `123` or `abcd`).  
+☐ Email field validates correct format (must contain @ and a domain).  
+☐ "Submit" button is active only when fields are correctly filled.  
+☐ After submission, the user is redirected to the "Thank you for your order" page.
 
-## Общая логика  
-☐ Переходы логичны — переход с главной → маршрут → оформление.  
-☐ Нет битых ссылок или 404 на пути оформления поездки.  
-☐ Пользователь всегда понимает, на каком этапе находится (название маршрута, кнопки ясны, текст понятен).
+## Overall Logic
+☐ Navigation is logical — homepage → route → booking.  
+☐ No broken links or 404 errors during the booking process.  
+☐ User always understands the current stage (route name, clear buttons, readable text).

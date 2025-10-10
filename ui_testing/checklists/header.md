@@ -1,20 +1,20 @@
-# Чек-лист: Header & Navigation (KS-Trans)
+# Checklist: Header & Navigation (KS-Trans)
 
-## Общие проверки  
-☐ Логотип кликабелен и ведёт на главную.  
-☐ Отображаются все пункты меню: Головна, Маршрути, Про нас, Контакти, Відгуки.  
-☐ При клике на каждый пункт меню открывается соответствующий раздел.  
-☐ Активный раздел меню визуально выделяется.  
-☐ При клике на «Маршрути» раскрывается выпадающее меню с подкатегориями: ЧЕХІЯ, НІМЕЧЧИНА, БОЛГАРІЯ, ТУРЕЧЧИНА, ПОЛЬЩА, МОЛДОВА.  
-☐ При выборе подкатегории происходит переход на список маршрутов.  
+## General Checks
+☐ The logo is clickable and leads to the homepage.  
+☐ All menu items are displayed: Home, Routes, About Us, Contacts, Reviews.  
+☐ Clicking each menu item opens the corresponding section.  
+☐ The active menu section is visually highlighted.  
+☐ Clicking **“Routes”** opens a dropdown with subcategories: CZECHIA, GERMANY, BULGARIA, TURKEY, POLAND, MOLDOVA.  
+☐ Selecting a subcategory navigates to the list of routes.  
 
-## Социальные кнопки и обратная связь  
-☐ В хедере есть кнопка «Замовити зворотній дзвінок».  
-☐ При клике открывается рабочая форма.  
-☐ В форме поля «Ім’я» и «Телефон» обязательны для заполнения.  
-☐ Кнопка «Відправити» работает корректно, появляется сообщение об успешной отправке.  
+## Social Buttons and Callback
+☐ There is a **“Request a Callback”** button in the header.  
+☐ Clicking it opens a working form.  
+☐ Fields **“Name”** and **“Phone”** are required in the form.  
+☐ The **“Send”** button works correctly; a success message appears after submission.  
 
-## UI / Адаптивность  
-☐ При уменьшении окна меню заменяется на бургер.  
-☐ В мобильной версии меню кликабельно и читаемо.  
-☐ Хедер закреплён (sticky) и остаётся на месте при скролле. 
+## UI / Responsiveness
+☐ On window resize, the menu changes to a burger menu.  
+☐ The mobile menu is clickable and readable.  
+☐ The header is sticky and remains visible while scrolling.  

@@ -1,25 +1,25 @@
-# Чек-лист: Slider (KS-Trans)
+# Checklist: Slider (KS-Trans)
 
-## Общие проверки  
-☐ Слайдер отображается на главной странице.  
-☐ Все слайды корректно загружаются без ошибок и пустых блоков.  
-☐ Изображения на слайдах не искажены и адаптированы под разные размеры экрана.  
-☐ Тексты на слайдах отображаются без обрезания или наложений.  
-☐ Язык текста соответствует выбранной локализации (украинский).  
+## General Checks
+☐ Slider is displayed on the main page.  
+☐ All slides load correctly without errors or empty blocks.  
+☐ Images on slides are not distorted and are adapted to different screen sizes.  
+☐ Text on slides is fully visible and not overlapping.  
+☐ Text language matches the selected localization (Ukrainian).
 
-## Навигация и управление  
-☐ Стрелки переключения слайдов работают и листают в обе стороны.  
-☐ Точки/индикаторы под слайдером отображают текущий слайд.  
-☐ При клике на индикатор открывается соответствующий слайд.  
-☐ Автоматическая прокрутка работает.  
-☐ Автопрокрутка останавливается при наведении курсора на слайд (hover).  
+## Navigation & Controls
+☐ Slide arrows work and scroll in both directions.  
+☐ Dots/indicators under the slider show the current slide.  
+☐ Clicking an indicator opens the corresponding slide.  
+☐ Automatic slide rotation works.  
+☐ Auto-rotation stops when hovering over a slide.
 
-## Содержимое слайдов  
-☐ Слайды содержат актуальные тексты и изображения.  
-☐ Все ссылки на слайдах кликабельны и ведут на правильные страницы.  
-☐ Тексты без орфографических и стилистических ошибок.  
+## Slide Content
+☐ Slides contain up-to-date text and images.  
+☐ All links on slides are clickable and lead to the correct pages.  
+☐ Texts are free of spelling and stylistic errors.
 
-## UI / Адаптивность  
-☐ Слайдер корректно работает на мобильной версии (свайпы влево/вправо).  
-☐ Контент на слайдах читаем и не «съезжает» на маленьких экранах.  
-☐ Высота слайдера подстраивается под экран без появления лишних отступов.  
+## UI / Responsiveness
+☐ Slider works correctly on mobile (swipe left/right).  
+☐ Slide content is readable and does not shift on small screens.  
+☐ Slider height adjusts to the screen without extra spacing. 

@@ -1,28 +1,34 @@
-# Чек-лист: Routes (KS-Trans)
+# Checklist: Routes (KS-Trans)
 
-## Общие проверки  
-☐ Страница «Маршрути» открывается из хедера и футера.  
-☐ Все маршруты отображаются карточками без пустых блоков.  
-☐ Названия маршрутов читаемые и не обрезаются.  
+## General Checks
+☐ "Routes" page opens from header and footer.  
+☐ All routes are displayed as cards without empty blocks.  
+☐ Route names are readable and not cut off.
 
-## Список маршрутов  
-☐ Кнопки «Детальніше» присутствуют у каждого маршрута.  
-☐ При клике на «Детальніше» открывается страница выбранного маршрута.  
-☐ URL соответствует выбранному направлению.  
+## Route List
+☐ "Details" buttons are present for each route.  
+☐ Clicking "Details" opens the selected route page.  
+☐ URL matches the selected direction.
 
-## Страница маршрута  
-☐ Заголовок маршрута отображается корректно (например, «Україна – Польща»).  
-☐ Описание маршрута содержит перечень городов отправления и прибытия.  
-☐ Отображаются иконки преимуществ (Wi-Fi, кондиціонер, телевізор и т.д.).  
-☐ Иконки и изображения загружаются без искажений.  
-☐ Текст маршрута читаем и без ошибок.  
+## Route Page
+☐ Route title displays correctly (e.g., "Ukraine – Poland").  
+☐ Route description lists departure and arrival cities.  
+☐ Feature icons are displayed (Wi-Fi, Air Conditioning, TV, etc.).  
+☐ Icons and images load correctly without distortion.  
+☐ Route text is readable and error-free.
 
-## Кнопки и действия  
-☐ На странице маршрута присутствует кнопка для оформления поездки «Забронювати».  
-☐ Кнопка кликабельна и ведёт к форме оформления поездки.  
-☐ После оформления поездки происходит редирект на страницу «Дякую за замовлення».  
+## Buttons & Actions
+☐ "Book" button is present on the route page.  
+☐ Button is clickable and opens the booking form.  
+☐ After booking, user is redirected to the "Thank you for your order" page.
 
-## UI / Адаптивность  
-☐ Страница маршрутов корректно отображается на мобильных устройствах.  
-☐ Карточки маршрутов не накладываются друг на друга на маленьком экране.  
-☐ Все кнопки удобно нажимать пальцем.  
+## UI / Responsiveness
+☐ Routes page displays correctly on mobile devices.  
+☐ Route cards do not overlap on small screens.  
+☐ All buttons are easy to tap.
+
+
+
+
+
+

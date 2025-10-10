@@ -1,32 +1,32 @@
-# Чек-лист: Mobile (KS-Trans)
+# Checklist: Mobile (KS-Trans)
 
-## Общие проверки  
-☐ Сайт корректно открывается на смартфоне (Android / iOS).  
-☐ Нет горизонтального скролла при любом разрешении.  
-☐ Хедер и футер фиксируются корректно и не перекрывают контент.  
+## General Checks
+☐ The site opens correctly on smartphones (Android / iOS).  
+☐ No horizontal scrolling at any resolution.  
+☐ Header and footer are fixed correctly and do not cover content.  
 
-## Навигация  
-☐ Бургер-меню отображается и открывается по тапу.  
-☐ Все пункты меню кликабельны и ведут на правильные страницы.  
-☐ При закрытии меню страница возвращается в прежнее состояние.  
+## Navigation
+☐ Hamburger menu is visible and opens on tap.  
+☐ All menu items are clickable and lead to the correct pages.  
+☐ When closing the menu, the page returns to its previous state.  
 
-## Слайдер / баннер  
-☐ Слайды листаются свайпом влево/вправо.  
-☐ Стрелки и индикаторы удобно нажимать пальцем.  
-☐ Тексты и кнопки не обрезаются и читаемы.  
-☐ Автопрокрутка работает и не мешает скроллу страницы.  
+## Slider / Banner
+☐ Slides swipe left/right.  
+☐ Arrows and indicators are easy to tap.  
+☐ Texts and buttons are readable and not cut off.  
+☐ Autoplay works and does not interfere with page scrolling.  
 
-## Контент  
-☐ Иконки (Wi-Fi, TV, кондиционер) отображаются полностью и листаются стрелками.  
-☐ Карточки направлений отображаются в одну колонку и не налезают друг на друга.  
-☐ Изображения подстраиваются под экран без искажений.  
+## Content
+☐ Icons (Wi-Fi, TV, Air Conditioner) display fully and scroll with arrows.  
+☐ Destination cards display in a single column and do not overlap.  
+☐ Images adjust to the screen without distortion.  
 
-## Формы и кнопки  
-☐ Кнопка «Зворотний дзвінок» кликабельна и открывает форму.  
-☐ Поля ввода (имя, телефон) работают с мобильной клавиатурой (цифры / текст).  
-☐ При вводе данных клавиатура не перекрывает кнопку отправки.  
-☐ Телефонные номера кликабельны → открывается звонок.  
+## Forms and Buttons
+☐ "Callback" button is clickable and opens the form.  
+☐ Input fields (name, phone) work with the mobile keyboard (numbers / text).  
+☐ Keyboard does not cover the submit button when typing.  
+☐ Phone numbers are clickable → opens the dialer.  
 
-## Поведение страницы  
-☐ Скролл по странице плавный, без рывков.  
-☐ Все элементы адаптированы под тап (нет слишком мелких кнопок).  
+## Page Behavior
+☐ Page scrolls smoothly without jerks.  
+☐ All elements are adapted for tapping (no too-small buttons).   

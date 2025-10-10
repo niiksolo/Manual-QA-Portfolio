@@ -1,31 +1,31 @@
-# Чек-лист: General UI (KS-Trans)
+# Checklist: General UI (KS-Trans)
 
-## Общие проверки  
-☐ Сайт открывается без ошибок (404, 500).  
-☐ Все страницы загружаются корректно и быстро.  
-☐ Нет битых изображений или пустых блоков.  
+## General Checks
+☐ The website opens without errors (404, 500).  
+☐ All pages load correctly and quickly.  
+☐ No broken images or empty blocks.  
 
-## Навигация  
-☐ Все ссылки кликабельны и ведут на правильные страницы.  
-☐ При переходе по страницам сохраняется единый стиль и структура.  
-☐ Логотип в хедере кликабелен и ведёт на главную.  
+## Navigation
+☐ All links are clickable and lead to the correct pages.  
+☐ Style and structure remain consistent when navigating pages.  
+☐ The header logo is clickable and leads to the homepage.  
 
-## Тексты и контент  
-☐ На сайте нет орфографических ошибок.  
-☐ Тексты читаемы и не обрезаются.  
-☐ Язык сайта соответствует выбранной локализации UA.  
+## Texts and Content
+☐ No spelling mistakes on the site.  
+☐ Texts are readable and not cut off.  
+☐ The website language matches the selected UA localization.  
 
-## Медиа и иконки  
-☐ Все иконки (Wi-Fi, TV, кондиціонер и т.д.) отображаются корректно.  
-☐ Изображения адаптированы под разные разрешения.  
-☐ Логотипы и баннеры не искажены.  
+## Media and Icons
+☐ All icons (Wi-Fi, TV, air conditioner, etc.) display correctly.  
+☐ Images are adapted for different resolutions.  
+☐ Logos and banners are not distorted.  
 
-## UI / UX  
-☐ Элементы интерфейса выровнены и не «прыгают».  
-☐ Все кнопки имеют читаемые названия.  
-☐ Размеры кнопок и ссылок достаточны для клика пальцем.  
+## UI / UX
+☐ Interface elements are aligned and do not “jump”.  
+☐ All buttons have readable labels.  
+☐ Button and link sizes are large enough for tapping on mobile.  
 
-## Адаптивность  
-☐ Сайт корректно отображается на разных разрешениях (desktop, tablet, mobile).  
-☐ Нет горизонтального скролла на мобильных устройствах.  
-☐ Поп-апы и формы корректно масштабируются.  
+## Responsiveness
+☐ The site displays correctly on different resolutions (desktop, tablet, mobile).  
+☐ No horizontal scroll on mobile devices.  
+☐ Pop-ups and forms scale correctly.   

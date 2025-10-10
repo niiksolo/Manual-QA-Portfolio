@@ -1,16 +1,16 @@
 # QA Checklist Portfolio: KS-Trans  
 
-Этот репозиторий содержит набор чек-листов, созданных на основе реального сайта [KS-Trans](https://ks-trans.org).  
-Цель — продемонстрировать практические навыки тестирования веб-сайтов.  
+This repository contains a set of checklists created based on the real website [KS-Trans](https://ks-trans.org).  
+Purpose — to demonstrate practical skills in web testing.
 
-## 📌 Структура чек-листов  
+## 📌 Checklist Structure
 
-1. **Header** – проверка верхней части сайта (меню, логотип, кнопки).  
-2. **Slider** – проверка работы слайдера на главной странице.  
-3. **Main content** – основной контент сайта (блоки, иконки, текст).  
-4. **Footer** – нижняя часть сайта (контакты, ссылки, кнопка обратного звонка).  
-5. **Mobile** – адаптивность и удобство использования на смартфонах.  
-6. **Order a Trip** – оформление поездки (поля, валидация, отправка заявки).  
-7. **Routes** – страница со всеми маршрутами и деталями каждого маршрута.  
-8. **Callback Form** – форма обратного звонка (поля, валидация, сообщения).  
-9. **General UI** – общие проверки интерфейса.  
+1. **Header** – checking the top of the site (menu, logo, buttons).  
+2. **Slider** – testing the slider on the main page.  
+3. **Main content** – main content of the site (blocks, icons, text).  
+4. **Footer** – bottom part of the site (contacts, links, callback button).  
+5. **Mobile** – responsiveness and usability on smartphones.  
+6. **Order a Trip** – booking a trip (fields, validation, submission).  
+7. **Routes** – page with all routes and details for each route.  
+8. **Callback Form** – callback form (fields, validation, messages).  
+9. **General UI** – general interface checks.
