@@ -1,17 +1,17 @@
-# Library DB — Практический проект SQL
+# Library DB — SQL Practice Project
 
-Практический проект SQL на базе библиотеки: книги, авторы, читатели и выдачи.
-Все запросы выполнены и проверены в **MySQL Workbench**.
+A practical SQL project based on a library: books, authors, readers, and loans.  
+All queries were executed and tested in **MySQL Workbench**.
 
-**Структура проекта:**
-- `practice.sql` — примеры запросов и упражнения  
-- `schema/` — структура таблиц  
-- `seed/` — наполнение тестовыми данными  
-- `screenshots/` — скриншоты работы в MySQL Workbench
+**Project structure:**
+- `practice.sql` — example queries and exercises  
+- `schema/` — table structures  
+- `seed/` — test data  
+- `screenshots/` — screenshots from MySQL Workbench
 
-**Возможности:** SELECT, WHERE, ORDER BY, LIMIT, JOIN, GROUP BY, HAVING, подзапросы, EXISTS, UNION, INSERT, UPDATE, DELETE.
+**Capabilities:** SELECT, WHERE, ORDER BY, LIMIT, JOIN, GROUP BY, HAVING, subqueries, EXISTS, UNION, INSERT, UPDATE, DELETE.
 
-**Скриншоты работы:**  
+**Screenshots:**  
 <img src="screenshots/1.png" width="250"/>
 <img src="screenshots/2.png" width="250"/>
 <img src="screenshots/3.png" width="250"/>

@@ -1,86 +1,84 @@
-# 📄 Тест-кейсы: Mobile (KS-Trans)
+# 📄 Test Cases: Mobile (KS-Trans)
 
 ---
 
-### TC-MB-023 – Проверка бургер-меню  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org) на мобильном устройстве.  
+### TC-MB-023 – Burger menu check  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org) on a mobile device
 
-**Шаги:**  
-- Нажать на «бургер-меню».  
+**Steps:**  
+- Tap the "burger menu"
 
-**Ожидаемый результат:**  
-Открывается меню со ссылками («Головна», «Маршрути», «Контакти»...), номерами телефонов и кнопкой «Зворотний дзвінок».    
+**Expected Result:**  
+The menu opens showing links ("Home", "Routes", "Contacts", ...), phone numbers, and the "Callback" button.
 
-**Статус:** Pass  
+**Status:** Pass
 
-<img src="screenshots/test23.jpg" width="200"/>  
-
----
-
-### TC-MB-024 – Проверка переходов по бургер-меню  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org) на мобильном устройстве.  
-
-**Шаги:**  
-1. Нажать на бургер-меню.  
-2. Выбрать пункт «Маршрути».  
-3. Нажать на бургер-меню.  
-4. Выбрать пункт «Контакти».  
-
-**Ожидаемый результат:**  
-- При выборе «Маршрути» открывается список маршрутов.  
-- При выборе «Контакти» открывается страница с контактной информацией.  
-
-**Статус:** Pass  
+<img src="screenshots/test23.jpg" width="200"/>
 
 ---
 
-### TC-MB-025 – Проверка слайдера на мобильном  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org) на мобильном устройстве.  
+### TC-MB-024 – Menu navigation on mobile  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org) on a mobile device
 
-**Шаги:**  
-1. Просмотреть слайдер.  
-2. Перелистать его свайпами влево/вправо.  
+**Steps:**  
+1. Tap the burger menu  
+2. Select "Routes"  
+3. Tap the burger menu again  
+4. Select "Contacts"
 
-**Ожидаемый результат:**  
-Слайды листаются свайпом, текст и изображения отображаются корректно.   
+**Expected Result:**  
+- Selecting "Routes" opens the routes list  
+- Selecting "Contacts" opens the contacts page
 
-**Статус:** Pass  
-
----
-
-### TC-MB-026 – Проверка формы заказа на мобильном  
-**Предусловие:**  
-- Зайти на страницу маршрута [Чехія-Украіна](https://ks-trans.org/ukraina-chehiya.html) с телефона.     
-
-**Шаги:**  
-1. Нажать кнопку «Забронювати».  
-2. Заполнить форму заказа.  
-
-**Ожидаемый результат:**  
-Форма открывается и корректно отображается на мобильном, поля и кнопка доступны для заполнения.  
-
-**Статус:** Pass  
-
-<img src="screenshots/test26.jpg" width="200"/>  
+**Status:** Pass
 
 ---
 
-### TC-MB-027 – Проверка формы обратного звонка на мобильном  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org) на мобильном устройстве.  
+### TC-MB-025 – Slider check on mobile  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org) on a mobile device
 
-**Шаги:**  
-1. Нажать на бургер-меню.  
-2. Нажать на кнопку «Зворотний дзвінок»  
+**Steps:**  
+1. View the slider  
+2. Swipe left/right to navigate slides
 
-**Ожидаемый результат:**  
-Форма корректно отображается, все поля доступны для ввода.  
+**Expected Result:**  
+Slides swipe correctly, text and images display properly.
 
-**Статус:** Pass  
-
-<img src="screenshots/test27.jpg" width="200"/>  
+**Status:** Pass
 
 ---
+
+### TC-MB-026 – Booking form on mobile  
+**Precondition:**  
+- Open a route page [Czechia-Ukraine](https://ks-trans.org/ukraina-chehiya.html) on a mobile device
+
+**Steps:**  
+1. Tap "Book"  
+2. Fill in the booking form
+
+**Expected Result:**  
+Form opens and displays correctly on mobile; fields and button are accessible.
+
+**Status:** Pass
+
+<img src="screenshots/test26.jpg" width="200"/>
+
+---
+
+### TC-MB-027 – Callback form on mobile  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org) on a mobile device
+
+**Steps:**  
+1. Tap the burger menu  
+2. Tap the "Callback" button
+
+**Expected Result:**  
+Form displays correctly, all fields are accessible for input.
+
+**Status:** Pass
+
+<img src="screenshots/test27.jpg" width="200"/>

@@ -1,16 +1,16 @@
-# 📂 Test Cases – KS-Trans  
+# 📂 Test Cases – KS-Trans
 
-В этой папке собраны тест-кейсы, подготовленные на основе реального сайта [KS-Trans](https://ks-trans.org).  
-Цель – проверить основные пользовательские сценарии и критические функции сервиса.  
+This folder contains test cases based on the real site [KS-Trans](https://ks-trans.org).  
+The goal is to check main user scenarios and critical site functions.
 
-## 📌 Содержание
-- **booking-form.md** – тест-кейсы для формы оформления поездки.  
-- **callback-form.md** – тест-кейсы для формы обратного звонка.  
-- **routes.md** – тест-кейсы для страницы «Маршрути» и страницы все направления.  
-- **header-footer.md** – тест-кейсы для проверки шапки и футера сайта.  
-- **mobile.md** – тест-кейсы для адаптивности и мобильной версии.  
-- **general-ui.md** – общие тест-кейсы.  
+## 📌 Contents
+- **booking-form.md** – test cases for the trip booking form  
+- **callback-form.md** – test cases for the callback form  
+- **routes.md** – test cases for the "Routes" page and all destinations page  
+- **header-footer.md** – test cases for header and footer  
+- **mobile.md** – test cases for mobile version and responsiveness  
+- **general-ui.md** – general UI test cases
 
-## 📷 Скриншоты
-Для наглядности к большинству тест-кейсам приложены реальные скриншоты.  
-Они хранятся в папке `screenshots`   
+## 📷 Screenshots
+Most test cases have real screenshots attached for clarity.  
+They are stored in the `screenshots` folder.

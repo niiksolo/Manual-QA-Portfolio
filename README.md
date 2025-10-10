@@ -1,38 +1,44 @@
 # 🧪 QA Portfolio
 
-Сборник учебных и практических проектов для демонстрации навыков QA:  
-тестирования UI, API, работы с базами данных и составления отчётов.
+A collection of training and practical projects to showcase QA skills:  
+UI testing, API testing, database work, and reporting.
 
 ---
 
-# 📝 Документация — KS-Trans
+# 📝 Documentation — KS-Trans
 
-Документация подготовлена на основе реального сайта [KS-Trans](https://ks-trans.org).  
-Проект демонстрирует навыки написания чек-листов, тест-кейсов и баг-репортов.
+Documentation based on the real website [KS-Trans](https://ks-trans.org).  
+The project demonstrates skills in writing checklists, test cases, and bug reports.
 
-## 📂 Структура репозитория
-- `bug-reports/` – баг-репорты на основе найденных дефектов  
-- `ui_testing/checklists/` – чек-листы по основным модулям сайта (header, slider, footer, booking и др.)  
-- `ui_testing/test-cases/` – тест-кейсы для критических функций  
-- `screenshots/` – скриншоты, подтверждающие выполнение шагов тест-кейсов и багов  
+## 📂 Repository structure
+- `bug-reports/` – bug reports based on found defects  
+- `ui_testing/checklists/` – checklists for main website modules (header, slider, footer, booking, etc.)  
+- `ui_testing/test-cases/` – test cases for critical functions  
+- `screenshots/` – screenshots showing test case steps and bug evidence  
 
 ---
 
 # 🧪 API-SQL-TESTING
 
-Папка с учебными проектами для отработки навыков работы с **API и базами данных**.  
-Включает три проекта с коротким описанием и примерами использования.
+Folder with training projects for practicing **API and database skills**.  
+Includes three projects with short descriptions and usage examples.
 
 ---
 
 ### 1️⃣ API Testing — FakeStoreAPI
-- Учебный проект для демонстрации навыков API тестирования  
-- Инструменты: Postman, Newman  
+- Training project to demonstrate API testing skills  
+- Tools: Postman, Newman  
 
 ### 2️⃣ SQL Practice — Library DB
-- Практический проект работы с базой данных библиотеки: книги, авторы, читатели и выдачи  
-- Все запросы выполнены в MySQL Workbench  
+- Practical project working with a library database: books, authors, readers, and loans  
+- All queries executed in MySQL Workbench  
 
 ### 3️⃣ MySQL-API Project
-- Мини-проект демонстрирует workflow QA: API → Python → MySQL → отчёты  
-- Проект показывает, как получать данные через FakeStoreAPI, записывать их в базу данных и формировать отчёты в HTML/CSV  
+- Mini-project showing QA workflow: API → Python → MySQL → reports  
+- Demonstrates how to fetch data from FakeStoreAPI, store it in a database, and generate reports in HTML/CSV  
+
+
+
+
+
+

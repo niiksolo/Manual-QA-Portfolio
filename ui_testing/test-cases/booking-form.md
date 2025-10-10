@@ -1,114 +1,113 @@
-# 📄 Test Cases: Booking (оформление поездки)
+# 📄 Test Cases: Booking (Trip Reservation)
 
 ---
 
-### TC-BOOK-001: Отправка формы с валидными данными  
-**Предусловия:**  
-1. Открыть страницу [КС-ТРАНС](https://ks-trans.org/ukraina-bolgariya.html)    
-2. Нажать «Забронювати»  
+### TC-BOOK-001: Submit form with valid data
+**Preconditions:**  
+1. Open the page [KS-Trans](https://ks-trans.org/ukraina-bolgariya.html)  
+2. Click "Забронювати"  
 
-**Шаги:**  
-1. Заполнить поле «Контактное лицо»: "Никита"  
-2. Заполнить поле «Телефон»: "+380962223344"  
-3. Заполнить поле E-mail: "test@mail.com"  
-4. Нажать кнопку "Відправити"  
+**Steps:**  
+1. Fill "Contact person" field: "Nikita"  
+2. Fill "Phone" field: "+380962223344"  
+3. Fill "E-mail" field: "test@mail.com"  
+4. Click "Відправити"  
 
-**Ожидаемый результат:**  
-Откроется страница «Дякую за замовлення».  
+**Expected Result:**  
+The page "Дякую за замовлення" opens.
 
-**Статус:** Pass 
+**Status:** Pass
 
 <img src="screenshots/test1.png" width="200"/>
 <img src="screenshots/test1_1.png" width="200"/>
 
 ---
 
-### TC-BOOK-002: Отправка формы с пустыми обязательными полями  
-**Предусловия:**  
-1. Открыть страницу [КС-ТРАНС](https://ks-trans.org/ukraina-bolgariya.html)  
-2. Нажать «Забронювати»  
+### TC-BOOK-002: Submit form with empty required fields
+**Preconditions:**  
+1. Open the page [KS-Trans](https://ks-trans.org/ukraina-bolgariya.html)  
+2. Click "Забронювати"  
 
-**Шаги:**  
-1. Оставить поля пустыми  
-2. Нажать кнопку "Відправити"  
+**Steps:**  
+1. Leave fields empty  
+2. Click "Відправити"  
 
-**Ожидаемый результат:**  
-Отображается сообщение об ошибке: «Ошибки в заполнении полей: Контактное лицо, Телефон».  
+**Expected Result:**  
+Error message appears: "Field errors: Contact person, Phone".
 
-**Статус:** Pass  
+**Status:** Pass
 
 <img src="screenshots/test2.png" width="200"/>
 
 ---
 
-### TC-BOOK-003: Отправка формы с некорректным телефоном  
-**Предусловия:**  
-1. Открыть страницу [КС-ТРАНС](https://ks-trans.org/ukraina-bolgariya.html)  
-2. Нажать «Забронювати»  
+### TC-BOOK-003: Submit form with incorrect phone
+**Preconditions:**  
+1. Open the page [KS-Trans](https://ks-trans.org/ukraina-bolgariya.html)  
+2. Click "Забронювати"  
 
-**Шаги:**  
-1. Заполнить поле «Контактное лицо»: "Никита"  
-2. Заполнить поле «Телефон»: "abc123"  
-3. Заполнить поле E-mail: "test@mail.com"  
-4. Нажать кнопку "Відправити"  
+**Steps:**  
+1. Fill "Contact person": "Nikita"  
+2. Fill "Phone": "abc123"  
+3. Fill "E-mail": "test@mail.com"  
+4. Click "Відправити"  
 
-**Ожидаемый результат:**  
-Форма не отправляется, отображается ошибка: «Ошибки в заполнении полей: Телефон».  
+**Expected Result:**  
+Form is not submitted, error shown: "Field errors: Phone".
 
-**Статус:** Pass  
+**Status:** Pass
 
 <img src="screenshots/test3.png" width="200"/>
 
 ---
 
-### TC-BOOK-004: Отправка формы с пустым именем  
-**Предусловия:**  
-1. Открыть страницу [КС-ТРАНС](https://ks-trans.org/ukraina-bolgariya.html)  
-2. Нажать «Забронювати»  
+### TC-BOOK-004: Submit form with empty name
+**Preconditions:**  
+1. Open the page [KS-Trans](https://ks-trans.org/ukraina-bolgariya.html)  
+2. Click "Забронювати"  
 
-**Шаги:**  
-1. Оставить поле «Контактное лицо» пустым  
-2. Заполнить поле «Телефон»: "+380962223344"  
-3. Заполнить поле E-mail: "test@mail.com"  
-4. Нажать кнопку "Відправити"  
+**Steps:**  
+1. Leave "Contact person" empty  
+2. Fill "Phone": "+380962223344"  
+3. Fill "E-mail": "test@mail.com"  
+4. Click "Відправити"  
 
-**Ожидаемый результат:**  
-Форма не отправляется, появляется ошибка: «Ошибки в заполнении полей: Контактное лицо».  
+**Expected Result:**  
+Form is not submitted, error shown: "Field errors: Contact person".
 
-**Статус:** Pass  
+**Status:** Pass
 
 <img src="screenshots/test4.png" width="200"/>
 
 ---
 
-### TC-BOOK-005: Проверка закрытия формы  
-**Предусловия:**  
-1. Открыть страницу [ukraina-bolgariya](https://ks-trans.org/ukraina-bolgariya.html)  
-2. Нажать «Забронювати»  
+### TC-BOOK-005: Check form closing
+**Preconditions:**  
+1. Open the page [ukraina-bolgariya](https://ks-trans.org/ukraina-bolgariya.html)  
+2. Click "Забронювати"  
 
-**Шаги:**  
-1. Нажать на крестик (×) для закрытия формы  
+**Steps:**  
+1. Click the close (×) button  
 
-**Ожидаемый результат:**  
-Форма закрывается, пользователь возвращается на страницу маршрута.  
+**Expected Result:**  
+Form closes, user returns to the route page.
 
-**Статус:** Pass  
-
+**Status:** Pass
 
 ---
 
-### TC-BOOK-006: Проверка адаптивности формы  
-**Предусловия:**  
-1. Открыть страницу [КС-ТРАНС](https://ks-trans.org/ukraina-bolgariya.html) в мобильной версии  
-2. Нажать «Забронювати»  
+### TC-BOOK-006: Check form responsiveness
+**Preconditions:**  
+1. Open the page [KS-Trans](https://ks-trans.org/ukraina-bolgariya.html) on a mobile device  
+2. Click "Забронювати"  
 
-**Шаги:**  
-1. Проверить отображение формы на мобильном экране  
-2. Попробовать заполнить и отправить форму  
+**Steps:**  
+1. Check form display on mobile screen  
+2. Try filling and submitting the form  
 
-**Ожидаемый результат:**  
-Форма корректно отображается на мобильных устройствах, поля и кнопки читаемы и доступны.  
+**Expected Result:**  
+Form displays correctly on mobile, fields and buttons are readable and accessible.
 
-**Статус:** Pass
+**Status:** Pass
 
 <img src="screenshots/test6.jpg" width="200"/>

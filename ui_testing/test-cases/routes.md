@@ -1,98 +1,98 @@
-# 📄 Тест-кейсы: Routes (KS-Trans)
+# 📄 Test Cases: Routes (KS-Trans)
 
 ---
 
-### TC-RT-014 – Проверка отображения списка маршрутов  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
+### TC-RT-014 – Check routes list display  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org).
 
-**Шаги:**  
-1. В меню нажать «Дивитись усі напрямки».  
+**Steps:**  
+1. In the menu, click "View all destinations".
 
-**Ожидаемый результат:**  
-Открывается страница «Маршрути».  
-Отображается список маршрутов, у каждой карточки есть:  
-- название направления,  
-- фото, 
-- кнопка «Детальнiше»  
-- кнопка «Забронювати».  
+**Expected Result:**  
+The "Routes" page opens.  
+The list of routes is displayed, each card contains:  
+- route name,  
+- photo,  
+- "Details" button,  
+- "Book" button.
 
-**Статус:** Fail  
+**Status:** Fail  
 
 <img src="screenshots/test14.png" width="200"/> 
 
 ---
 
-### TC-RT-015 – Проверка перехода по маршруту  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
+### TC-RT-015 – Check navigation to a route  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org).
 
-**Шаги:**  
-1.Выбрать меню «Маршрути».   
-2.В подменю выбрать «НІМЕЧЧИНА»  
-3.В разделе «НІМЕЧЧИНА» нажать на маршрут «Україна - Німеччина»  
+**Steps:**  
+1. Select the "Routes" menu.  
+2. In the submenu, select "GERMANY".  
+3. In the "GERMANY" section, click the route "Ukraine - Germany".
 
-**Ожидаемый результат:**  
-Открывается страница маршрута с подробным описанием, фото и кнопкой «Забронювати».  
+**Expected Result:**  
+The route page opens with detailed description, photos, and "Book" button.
 
-**Статус:** Pass  
+**Status:** Pass  
 
 <img src="screenshots/test15.png" width="200"/>  
 
 ---
 
-### TC-RT-016 – Проверка кнопки «Забронювати» внутри маршрута  
-**Предусловие:**  
-1.Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
-2.Выбрать меню «Маршрути».  
-3.В подменю выбрать «НІМЕЧЧИНА»  
-4.В разделе «НІМЕЧЧИНА» нажать на маршрут «Україна - Німеччина»  
+### TC-RT-016 – Check "Book" button inside a route  
+**Precondition:**  
+1. Open the site [KS-Trans](https://ks-trans.org).  
+2. Select the "Routes" menu.  
+3. In the submenu, select "GERMANY".  
+4. In the "GERMANY" section, click the route "Ukraine - Germany".
 
-**Шаги:**  
-1. Нажать на кнопку «Забронювати».  
+**Steps:**  
+1. Click the "Book" button.
 
-**Ожидаемый результат:**  
-Открывается форма «Бронювання місць на рейс».  
+**Expected Result:**  
+The "Booking seats for the trip" form opens.
 
-**Статус:** Pass  
+**Status:** Pass  
 
 <img src="screenshots/test16.png" width="200"/>  
 
 ---
 
-### TC-RT-017 – Проверка отображения фото транспорта  
-**Предусловие:**  
-1.Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
-2.Выбрать меню «Маршрути».  
-3.Открыть любой маршрут.  
+### TC-RT-017 – Check transport photos display  
+**Precondition:**  
+1. Open the site [KS-Trans](https://ks-trans.org).  
+2. Select the "Routes" menu.  
+3. Open any route.
 
-**Шаги:**  
-1.Опуститься в самый низ страницы  
-2.Посмотреть блок «Фотографії транспорту».  
+**Steps:**  
+1. Scroll to the bottom of the page.  
+2. Check the "Transport photos" block.
 
-**Ожидаемый результат:**  
-Фото отображаются корректно, без искажений и битых ссылок.  
+**Expected Result:**  
+Photos display correctly, no broken links or distorted images.
 
-**Статус:** Pass  
+**Status:** Pass  
 
 <img src="screenshots/test17.png" width="200"/>  
 
 ---
 
-### TC-RT-018 – Проверка адаптивности страницы маршрута  
-**Предусловие:**   
-1.Зайти на сайт [КС-ТРАНС](https://ks-trans.org)с мобильного устройства.  
- 
-**Шаги:**  
-1.Выбрать меню «Маршрути».  
-2.В подменю выбрать «НІМЕЧЧИНА»  
-3.В разделе «НІМЕЧЧИНА» нажать на маршрут «Україна - Німеччина»  
-4.Нажать на кнопку «Забронювати».  
-5.Нажать на крестик (×) закрытия формы.  
+### TC-RT-018 – Check route page responsiveness  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org) on a mobile device.
 
-**Ожидаемый результат:**  
-Страница корректно отображается: фото и текст подстраиваются под размер экрана, кнопки доступны для клика.  
+**Steps:**  
+1. Select the "Routes" menu.  
+2. In the submenu, select "GERMANY".  
+3. Click the route "Ukraine - Germany".  
+4. Click the "Book" button.  
+5. Click the close (×) button on the form.
 
-**Статус:** Pass  
+**Expected Result:**  
+The page displays correctly: photos and text adapt to screen size, buttons are accessible for tapping.
+
+**Status:** Pass  
 
 <img src="screenshots/test18.jpg" width="200"/>  

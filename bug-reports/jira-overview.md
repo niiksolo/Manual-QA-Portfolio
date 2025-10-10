@@ -1,8 +1,8 @@
 # Jira Integration
 
-Этот проект ведётся и в Jira.  
-Ниже — скриншот из доски с багами:
+This project is also tracked in Jira.  
+Below is a screenshot from the board showing the bugs:
 
 <img src="screenshots/jira-overview.png" width="600"/>
 
-Полный список багов хранится в Jira (не открыт публично по соображениям безопасности).
+The full list of bugs is stored in Jira (not publicly accessible for security reasons).

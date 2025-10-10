@@ -1,51 +1,49 @@
-# 📄 Тест-кейсы: General UI (KS-Trans)
+# 📄 Test Cases: General UI (KS-Trans)
 
 ---
 
-### TC-GEN-0028 – Проверка корректности текста 
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
+### TC-GEN-0028 – Check text correctness
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org)
 
-**Шаги:**  
-1. Пройтись по всем пунктам меню «Головна», «Про нас», «Маршрути», «Контакти», «Відгуки»
-2. Проверить тексты блоков «Головна», «Про нас», «Маршрути», «Контакти», «Відгуки»  
-3. Проверить номера телефонов компании
+**Steps:**  
+1. Go through all menu items: "Home", "About us", "Routes", "Contacts", "Reviews"  
+2. Check the text in the blocks "Home", "About us", "Routes", "Contacts", "Reviews"  
+3. Check the company phone numbers
 
-**Ожидаемый результат:**  
-Все тексты отображаются без ошибок и опечаток, номера корректны и принадлежат компании.
+**Expected Result:**  
+All texts display correctly without typos, and phone numbers are correct and belong to the company.
 
-**Статус:** Pass  
-
----
-
-### TC-GEN-029 – Проверка ссылок в футере  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
-
-**Шаги:**  
-1. Перейти в футер.  
-2. Нажать на ссылки «Головна», «Маршрути», «Контакти», «Про нас».  
-
-**Ожидаемый результат:**  
-Ссылки работают и ведут на корректные страницы.  
-
-**Статус:** Pass  
+**Status:** Pass
 
 ---
 
-### TC-GEN-030 – Проверка загрузки картинок
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org).  
+### TC-GEN-029 – Check footer links
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org)
 
-**Шаги:**  
-1. Пройтись по главной и страницам маршрутов.  
-2. Проверить отображение всех картинок (логотип, слайдер, маршруты).  
+**Steps:**  
+1. Go to the footer  
+2. Click on the links "Home", "Routes", "Contacts", "About us"
 
-**Ожидаемый результат:**  
-Все картинки загружаются, нет битых ссылок.  
+**Expected Result:**  
+All links work correctly and lead to the proper pages.
 
-**Статус:** Fail  
-
-<img src="screenshots/test30.png" width="200"/>  
+**Status:** Pass
 
 ---
+
+### TC-GEN-030 – Check image loading
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org)
+
+**Steps:**  
+1. Browse the home page and routes pages  
+2. Check that all images display (logo, slider, routes)
+
+**Expected Result:**  
+All images load correctly, no broken links.
+
+**Status:** Fail
+
+<img src="screenshots/test30.png" width="200"/>

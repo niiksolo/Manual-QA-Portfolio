@@ -1,20 +1,20 @@
 # 🧪 API Testing — FakeStoreAPI
 
-Учебный проект по **API тестирования**.  
-Инструменты: **Postman** (ручное тестирование), **Newman** (автоматический прогон и HTML-отчёты).  
+A training project for **API testing**.  
+Tools: **Postman** (manual testing), **Newman** (automated run with HTML reports).
 
 ---
 
-## 📌 Что сделано
-- Коллекции для **Products**, **Users**, **Carts**, **Auth**  
-- Переменные окружений для каждой коллекции   
-- Авторизация и сохранение токена  
+## 📌 What is done
+- Collections for **Products**, **Users**, **Carts**, **Auth**  
+- Environment variables for each collection  
+- Authorization and token saving  
 - JSON Schema validation  
-- Генерация HTML-отчётов через Newman  
+- HTML report generation via Newman  
 
 ---
 
-## 📊 API Отчёты
+## 📊 API Reports
 - [Products Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Products_Report.html)  
 - [Users Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Users_Report.html)  
 - [Carts Report](https://niiksolo.github.io/Manual-QA-Portfolio/api-sql-testing/postman/reports/Carts_Report.html)  
@@ -22,12 +22,13 @@
 
 ---
 
-## 🚀 Как запустить тесты
+## 🚀 How to run tests
 
-Открой терминал или PowerShell в корне проекта и запусти команды Newman:
+Open terminal or PowerShell in the project root and run the Newman commands:
 
 ```bash
 newman run collections/Products.postman_collection.json -e environments/Products_Env.postman_environment.json -r cli,html --reporter-html-export reports/Products_Report.html
 newman run collections/Users.postman_collection.json -e environments/Users_Env.postman_environment.json -r cli,html --reporter-html-export reports/Users_Report.html
 newman run collections/Carts.postman_collection.json -e environments/Carts_Env.postman_environment.json -r cli,html --reporter-html-export reports/Carts_Report.html
 newman run collections/Auth.postman_collection.json -e environments/Auth_Env.postman_environment.json -r cli,html --reporter-html-export reports/Auth_Report.html
+Копировать код

@@ -1,72 +1,72 @@
-# 📄 Тест-кейсы: Header & Footer (KS-Trans)
+# 📄 Test Cases: Header & Footer (KS-Trans)
 
 ---
 
-### TC-HF-019 – Переход по логотипу  
-**Предусловие:**  
-1.Зайти на сайт [КС-ТРАНС](https://ks-trans.org)  
-2.Выбрать меню «Маршрути».  
+### TC-HF-019 – Logo navigation  
+**Precondition:**  
+1. Open the site [KS-Trans](https://ks-trans.org)  
+2. Go to the "Routes" menu
 
-**Шаги:**  
-- Нажать на логотип в хедере.  
+**Steps:**  
+- Click on the header logo
 
-**Ожидаемый результат:**  
-Пользователь перенаправляется на главную страницу сайта.  
+**Expected Result:**  
+The user is redirected to the home page.
 
-**Статус:** Pass  
-
----
-
-### TC-HF-020 – Проверка навигации по меню  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org)  
-
-**Шаги:**  
-1. Нажать «Маршрути».  
-2. Нажать «Контакти».  
-3. Нажать «Про Нас».  
-4. Нажать «Відгуки».  
-5. Нажать «Головна».  
-
-**Ожидаемый результат:**  
-- При нажатии «Маршрути» открывается список маршрутов.  
-- При нажатии «Контакти» открывается страница с контактной информацией.  
-- При нажатии «Про Нас» открывается страница с информацией о компании.  
-- При нажатии «Відгуки» открывается страница с отзывами пассажиров.  
-- При нажатии «Головна» открывается главная страница сайта  
-
-**Статус:** Pass   
+**Status:** Pass
 
 ---
 
-### TC-HF-021 – Проверка e-mail в футере  
-**Предусловие:**  
-- Зайти на сайт [КС-ТРАНС](https://ks-trans.org)    
+### TC-HF-020 – Menu navigation check  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org)
 
-**Шаги:**  
-1. Пролистать страницу вниз.  
-2. Нажать на email.  
+**Steps:**  
+1. Click "Routes"  
+2. Click "Contacts"  
+3. Click "About Us"  
+4. Click "Reviews"  
+5. Click "Home"
 
-**Ожидаемый результат:**  
-- При нажатии на email открывается почтовый клиент.  
+**Expected Result:**  
+- Clicking "Routes" opens the routes list  
+- Clicking "Contacts" opens the contacts page  
+- Clicking "About Us" opens the company info page  
+- Clicking "Reviews" opens the passenger reviews page  
+- Clicking "Home" opens the home page
 
-**Статус:** Pass  
-
-<img src="screenshots/test21.png" width="200"/>  
+**Status:** Pass
 
 ---
 
-### TC-HF-022 – Проверка кнопки «Зворотний дзвінок» в футере  
-**Предусловие:**  
-1.Зайти на сайт [КС-ТРАНС](https://ks-trans.org)  
+### TC-HF-021 – Check footer email  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org)
 
-**Шаги:**  
-1. Пролистать страницу вниз.  
-2. Нажать «Зворотний дзвінок».  
+**Steps:**  
+1. Scroll down to the footer  
+2. Click the email link
 
-**Ожидаемый результат:**  
-Открывается форма обратного звонка.  
+**Expected Result:**  
+The default email client opens.
 
-**Статус:** Pass  
+**Status:** Pass
 
-<img src="screenshots/test22.png" width="200"/>  
+<img src="screenshots/test21.png" width="200"/>
+
+---
+
+### TC-HF-022 – Check footer "Callback" button  
+**Precondition:**  
+- Open the site [KS-Trans](https://ks-trans.org)
+
+**Steps:**  
+1. Scroll down to the footer  
+2. Click "Callback"
+
+**Expected Result:**  
+The callback form opens.
+
+**Status:** Pass
+
+<img src="screenshots/test22.png" width="200"/>
