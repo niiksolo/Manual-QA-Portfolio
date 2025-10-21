@@ -46,7 +46,7 @@ if __name__ == "__main__":
     response = requests.post(API_URL, json=cart_payload)
     cart_data = response.json()
 
-    # Подставляем недостающие поля
+
     cart_data['userId'] = cart_payload['userId']
     cart_data['date'] = cart_payload['date']
 
@@ -54,9 +54,7 @@ if __name__ == "__main__":
     print("API response:", cart_data)
     print("DB check result:", db_result)
 
-    # -----------------------------
-    # Отчёт через pandas
-    # -----------------------------
+
     reports_dir = os.path.join(os.path.dirname(__file__), "..", "reports")
     if not os.path.exists(reports_dir):
         os.makedirs(reports_dir)

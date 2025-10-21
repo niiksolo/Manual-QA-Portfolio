@@ -20,4 +20,4 @@ python scripts/products.py
 python scripts/users.py
 python scripts/carts.py
 python scripts/generate_report.py
-Копировать код
+

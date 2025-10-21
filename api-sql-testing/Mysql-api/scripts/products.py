@@ -38,7 +38,7 @@ def insert_product_to_db(product):
     return result
 
 if __name__ == "__main__":
-    # Создаём продукт через API
+
     product_payload = {
         "title": "Test Product",
         "price": 19.99,
@@ -52,9 +52,6 @@ if __name__ == "__main__":
     print("API response:", product_data)
     print("DB check result:", db_result)
 
-    # -----------------------------
-    # Отчёт через pandas
-    # -----------------------------
     reports_dir = os.path.join(os.path.dirname(__file__), "..", "reports")
     if not os.path.exists(reports_dir):
         os.makedirs(reports_dir)

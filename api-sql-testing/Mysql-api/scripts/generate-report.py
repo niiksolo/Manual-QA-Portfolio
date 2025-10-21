@@ -10,7 +10,6 @@ DB_USER = os.getenv('DB_USER')
 DB_PASSWORD = os.getenv('DB_PASSWORD')
 DB_NAME = os.getenv('DB_NAME')
 
-# Папка для отчётов (в корне проекта)
 reports_dir = os.path.join(os.path.dirname(__file__), "..", "reports")
 if not os.path.exists(reports_dir):
     os.makedirs(reports_dir)
@@ -43,17 +42,14 @@ def generate_report():
     df_users = df_from_rows(users, ['id', 'email', 'username', 'password', 'name_first', 'name_last'])
     df_carts = df_from_rows(carts, ['id', 'userId', 'date'])
 
-    # Сохраняем отдельные CSV отчёты
     df_products.to_csv(os.path.join(reports_dir, "products_report.csv"), index=False)
     df_users.to_csv(os.path.join(reports_dir, "users_report.csv"), index=False)
     df_carts.to_csv(os.path.join(reports_dir, "carts_report.csv"), index=False)
 
-    # Сохраняем отдельные HTML отчёты
     df_products.to_html(os.path.join(reports_dir, "products_report.html"), index=False, border=1)
     df_users.to_html(os.path.join(reports_dir, "users_report.html"), index=False, border=1)
     df_carts.to_html(os.path.join(reports_dir, "carts_report.html"), index=False, border=1)
 
-    # Полный HTML отчёт
     full_html_path = os.path.join(reports_dir, "full_report.html")
     with open(full_html_path, "w", encoding="utf-8") as f:
         f.write("<html><head><title>Redmi QA Full Report</title></head><body>")

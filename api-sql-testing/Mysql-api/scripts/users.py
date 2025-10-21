@@ -50,7 +50,6 @@ if __name__ == "__main__":
     response = requests.post(API_URL, json=user_payload)
     user_data = response.json()
 
-    # Подставляем недостающие поля
     user_data['email'] = user_payload['email']
     user_data['username'] = user_payload['username']
     user_data['password'] = user_payload['password']
@@ -60,9 +59,6 @@ if __name__ == "__main__":
     print("API response:", user_data)
     print("DB check result:", db_result)
 
-    # -----------------------------
-    # Отчёт через pandas
-    # -----------------------------
     reports_dir = os.path.join(os.path.dirname(__file__), "..", "reports")
     if not os.path.exists(reports_dir):
         os.makedirs(reports_dir)
