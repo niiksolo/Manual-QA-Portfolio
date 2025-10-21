@@ -42,4 +42,4 @@ The dropdown menu should fully fit inside the messages window or adapt to its si
 ---
 
 **Attachments:**  
-<img src="screenshots/1.png" width="600"/>
+<img src="screenshots/0.png" width="600"/>
