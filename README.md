@@ -8,7 +8,7 @@ UI testing, API testing, database work, and reporting.
 # 📝 Documentation
 
 Based on real websites (linkedin, KS-Trans, Sushi-Go, MD Fashion).
-Demonstrates ability to create checklists, test cases, and bug reports from exploratory testing and functional analysis.
+Demonstrates ability to create checklists, test cases and bug reports from exploratory testing and functional analysis.
 
 ## 📂 Repository structure
 - `bug-reports/` – bug reports based on found defects  
