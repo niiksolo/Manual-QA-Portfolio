@@ -5,10 +5,10 @@ UI testing, API testing, database work, and reporting.
 
 ---
 
-# 📝 Documentation — KS-Trans
+# 📝 Documentation
 
-Documentation based on the real website [KS-Trans](https://ks-trans.org).  
-The project demonstrates skills in writing checklists, test cases, and bug reports.
+Based on real websites (linkedin, KS-Trans, Sushi-Go, MD Fashion).
+Demonstrates ability to create checklists, test cases, and bug reports from exploratory testing and functional analysis.
 
 ## 📂 Repository structure
 - `bug-reports/` – bug reports based on found defects  
