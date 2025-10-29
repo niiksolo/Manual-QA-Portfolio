@@ -1,22 +1,20 @@
 # 🧪 QA Portfolio
 
-A collection of training and practical projects to showcase QA skills:  
-UI testing, API testing, database work, and reporting.
+A collection of training and practical QA projects to showcase skills in:  
+UI testing, API testing, database work, test documentation, and reporting.
 
 ---
 
 # 📝 Documentation
 
-Based on real websites (linkedin, KS-Trans, Sushi-Go, MD Fashion).
-Demonstrates ability to create checklists, test cases and bug reports from exploratory testing and functional analysis.
+Contains checklists, test cases, and bug reports created during QA learning and practice.  
+Projects cover **different websites and functionalities**, demonstrating the ability to perform exploratory testing, functional analysis, and reporting.
 
 ## 📂 Repository structure
-- `bug-reports/` – bug reports based on found defects  
-- `ui_testing/checklists/` – checklists for main website modules (header, slider, footer, booking, etc.)  
-- `ui_testing/test-cases/` – test cases for critical functions  
-- `screenshots/` – screenshots showing test case steps and bug evidence  
-
----
+- `bug-reports/` – bug reports based on found defects across multiple sites  
+- `ui_testing/checklists/` – checklists for various website modules (headers, sliders, forms, filters, footers, etc.)  
+- `ui_testing/test-cases/` – test cases for critical functions and workflows  
+- `screenshots/` – screenshots showing test steps and bug evidence for clarity
 
 # 🧪 API-SQL-TESTING
 

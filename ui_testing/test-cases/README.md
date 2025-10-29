@@ -1,16 +1,16 @@
-# 📂 Test Cases – KS-Trans
+# 📂 Test Cases Portfolio
 
-This folder contains test cases based on the real site [KS-Trans](https://ks-trans.org).  
-The goal is to check main user scenarios and critical site functions.
+This folder contains a collection of test cases created for different websites and functionalities during my QA learning and practice.  
+The goal is to demonstrate practical testing skills across multiple scenarios, interfaces, and workflows.
 
 ## 📌 Contents
-- **booking-form.md** – test cases for the trip booking form  
-- **callback-form.md** – test cases for the callback form  
-- **routes.md** – test cases for the "Routes" page and all destinations page  
-- **header-footer.md** – test cases for header and footer  
-- **mobile.md** – test cases for mobile version and responsiveness  
-- **general-ui.md** – general UI test cases
+- **Functional Tests** – main user scenarios for various websites  
+- **Negative Tests** – error handling and edge case verification  
+- **UI Checks** – validation of interface elements and layout  
+- **Forms & Workflows** – test cases for forms, filters, buttons, and submissions  
+- **Responsiveness** – mobile and desktop interface checks  
+- **General UI** – general interface and usability tests  
 
 ## 📷 Screenshots
-Most test cases have real screenshots attached for clarity.  
-They are stored in the `screenshots` folder.
+Many test cases include real screenshots for clarity.  
+Screenshots are stored in the `screenshots` folder where applicable.
